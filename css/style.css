@@ -25,7 +25,7 @@ img{
 
 .top-header{
     position: fixed;
-    background-color: #5382b0;
+    background-color: #18446b;
     height: 80px;
     width: 100%;
     
@@ -43,7 +43,7 @@ img{
     color: white;
 }
 .header-content{
-    width: 100px;
+    width: 140px;
     height: 30px;
 
     color: white;
@@ -75,8 +75,12 @@ img{
 
 
 h1{
-    font-size: 30px;
-    color: #5382b0;
+    font-size: 24px;
+    color: #18446b;
+}
+
+h2{
+    font-size: 20px;
 }
 
 .main-content ol{

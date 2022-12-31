@@ -178,9 +178,6 @@
               </div>
             </div>
           </section>
-
-
-          
         </div>
         
         <div class="mdl-layout__tab-panel" id="publications">
@@ -504,7 +501,62 @@
         </div>
 
         <div class="mdl-layout__tab-panel" id="research">
-          Under construction.
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+                <h4 class="mdl-cell mdl-cell--12-col">Crystal structures at finite temperatures</h4>
+                <!--<div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="section__circle-container__circle mdl-color--primary"></div>
+                </div>-->
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>Self-consistent phonon (SCP) theory</h5>
+                  <figure>
+                    <img class = "research_figures" src="images/BTOFreeEnergy.png">
+                    <figcaption>The <i>T</i>-dependence of the free energy of the four phases of BaTiO<sub>3</sub> [1]. </figcaption>
+                  </figure>
+                  <p>
+                    The state-of-the-art structural optimization of DFT cannot be applied to the finite-temperature phases of materials because the effect of lattice vibrations is neglected.
+                    Thus, the description of structural phase transitions, which occur in a wide range of materials such as perovskites, other ferroelectrics, TMDs, etc., has been a big challenge in computational material science.<br><br>
+                    
+                    In the research, we have formulated and implemented a structural optimization theory at finite temperature, which minimizes the <i>T</i>-dependent free energy calculated by an anharmonic phonon theory.
+                    We have successfully reproduced the three-step structural phase transition and <i>p-T</i> phase diagram of BaTiO<sub>3</sub> using the method [1].<br><br>
+                    
+                    [1] <u>R. Masuki</u>, T. Nomoto, R. Arita, T. Tadano
+                    "Ab initio structural optimization at finite temperatures based on anharmonic phonon theory: Application to the structural phase transitions of BaTiO<sub>3</sub>"
+                    <a href="https://doi.org/10.1103/PhysRevB.106.224104">Physical Review B 106, 224104 (2022)</a>. 
+                    [<a href="https://arxiv.org/abs/2205.08789">arXiv</a>]
+                  </p>
+                </div>
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>Quasiharmonic approximation (QHA)</h5>
+                  <figure>
+                    <img class = "research_figures" src="images/Si_thermalexpansion.png">
+                    <figcaption>The thermal expansion of silicon calculated by QHA and SCP.</sub> [1]. </figcaption>
+                  </figure>
+                  <p>
+                    The Quasiharmonic approximation (QHA) is the most widely used approximation in the first-principles calculation of thermal expansion. However, the validity of the approximation has been unclear because the phonon frequency shift, which is directly related to the thermal expansion by the Gruneisen formula, is not accurately reproduced in QHA.<br><br>
+
+                    In our research, we have shown that the quasiharmonic approximation is an accurate approximation for the thermal expansion, but not necessarily for the phonon frequency shift by comparing it with the self-consistent phonon theory. Our result validates the use of quasiharmonic approximation for calculating the thermal expansion of weakly anharmonic materials [1].<br><br>
+                   
+                    [1] R. Masuki, T. Nomoto, R. Arita, T. Tadano 
+                    "Anharmonic Gruneisen theory based on self-consistent phonon theory: Impact of phonon-phonon interaction neglected in the quasiharmonic theory" 
+                    <a href="https://doi.org/10.1103/PhysRevB.105.064112">Physical Review B 105, 064112 (2022)</a>. 
+                    [<a href="https://arxiv.org/abs/2109.10046">arXiv</a>] 
+                  </p>
+                </div>
+              <!-- <div class="mdl-card__actions">
+                <a href="#" class="mdl-button">Read our features</a>
+              </div> -->
+            </div>
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn2">
+              <i class="material-icons">more_vert</i>
+            </button>
+            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn2">
+              <li class="mdl-menu__item">Lorem</li>
+              <li class="mdl-menu__item" disabled>Ipsum</li>
+              <li class="mdl-menu__item">Dolor</li>
+            </ul>
+          </section>
         </div>
 
         <footer class="mdl-mega-footer">
